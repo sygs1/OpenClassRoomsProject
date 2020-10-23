@@ -288,7 +288,8 @@
         line-height: 0.5em;       
     }
     #Logements main li .imgHebergement{
-        width: calc(100%-10px);    
+       width:100%;
+	   margin:0 auto;
        height: 8em;
     }
     
