@@ -460,15 +460,21 @@
         margin-left: 50px;
         font-size:large;
     } 
- #Logements aside .listeArticlesPop{
+	#Logements aside .listeArticlesPop{
 	width:calc(100% - 10px);
 
- }	 
+	}	
+	#Logements aside .listeArticlesPop ul{
+	  width:95%;
+	  padding-left:10px;
+	  margin: 10px auto;
+    }
+	  
     #Logements aside .listeArticlesPop article .description img{
         width:6em;
         max-height: 20px;
         height:2em; 
-        margin: 5em 2em; 
+        margin: 4em 2em; 
     }
 
     #Logements aside .listeArticlesPop article{
@@ -781,7 +787,7 @@ body{
         border-radius: 15px; 
     }
         #hebergements h2{
-        margin-left: 60px;            
+        margin-left: 40px;            
         }  
         #Logements main .Aplus{
             text-align:left;
@@ -818,6 +824,9 @@ body{
         #hebergements a{
             text-decoration: none; 
         }
+		.Aplus{
+			margin-left:40px;
+		}
         
         /****** icones groupees starBar ****/              
         .IconeStarBar{
@@ -846,7 +855,7 @@ body{
                    
         .imgGraph{            
            max-width: 20px;
-           margin-right: 20px;                                  
+           margin-right: 50px;                                  
         }
         /***class liste article***/
         .listeArticlesPop ul{       
