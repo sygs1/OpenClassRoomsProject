@@ -11,7 +11,7 @@
 /***************************   smartPhone  ********************************/
 /*************************************************************************/
 @media screen and (max-width : 749px){
-                        /***** mon breakPoint smartPhone= 749px (vs 767)*****/
+                        /***** mon breakPoint smartPhone= 830px (vs 767)*****/
 
     .vewport{
         width:414px;
@@ -92,13 +92,15 @@
         border-bottom: 2px solid #0065fc; 
         padding: 5px 0 5px 0;                                
     }
+         
+   
 
     /*********** smart recherche   *******************************/
     #recherche{
         flex-direction: column;
         align-items: flex-start;
         font-size: x-large;       
-        width:100%;    
+        width:90%;           
     }
 
         /******  changement text en image *****/
@@ -180,13 +182,14 @@
     /************  smart Logements *****************************/
     #Logements{
         width:100%;
-       
-    }    
+        margin: 0 auto !important;       
+        }    
 
     /******* smart Pop ***************************/
     #Logements aside{
         width:100%;
-        border-radius: 0;            
+        border-radius: 0;
+        margin:0 auto;             
     }  
    
     #Logements aside h2{
@@ -203,6 +206,7 @@
         height: 10em;
         justify-content: space-around;
         line-height: 1em;  
+                   
     }
         
     #Logements aside .listeArticlesPop article .imgPop{
@@ -229,35 +233,41 @@
         max-height: 20px;
         height: 2em;        
         background-color: inherit;
+           
     } 
 
 
 
     /****** smart Hbgt (main) ******/
     
+    
     #Logements main  {
         width:100%;
         border-radius: 0;      
         flex-wrap: nowrap;
         padding-left:0;
-        background-color: white;            
+        background-color: white;
+        margin:0 auto;             
     }
     #Logements main h2{
         margin-left: 15px;
         font-size: x-large;
         font-weight: bold;  
     } 
+
     #Logements main  h3{
         margin-left:10px;
         font-size: large; 
         line-height: 1em; 
         font-weight: bold;  
     }
+
     #Logements main .IconeStarBar{
         width: 6rem;
         max-height: 25px;
         height: 1.5em;
-        margin-left:10px;       
+        margin-left:10px;
+       
     }    
    #Logements main ul{ 
        margin:0 auto;
@@ -266,7 +276,9 @@
     #Logements main li {
        width:100%;
         justify-content: center;
+        box-shadow: 0px 0px 2px 2px #f2f2f2;
     }
+
     #Logements main article{
         width:100%; 
     }
@@ -280,42 +292,47 @@
     }
     
 
-
-  
    
     /****** smart Activités ******************/
     #Activites{
-       width:100%;       
+       width:100%;
     } 
     #Activites h2{
         font-size:x-large;
-    }   
+    }
     #Activites h3{
         font-size:large;
-    }    
+    }
     .boiteImgActivites article {
-       width: 100% ;       
-       margin:0.5em auto;
+       width: 90% ;       
+       margin:20px auto;
        border-radius: 10px 10px;
+        box-shadow: 0px 0px 10px 10px #f2f2f2;
     }
     .boitePetitesImgAct {
         width: 100% ;
         margin: 0 0em 0.5em -.1em;
-        border-radius: 10px 10px;
+        border-radius: 10px 10px;        
+    }
+    .boitePetitesImgAct article {
+        box-shadow: 0px 0px 10px 10px #f2f2f2;
+        
     }
     .boitePetitesImgAct img{
-        width:100%;
+        width:100%;  
     }
     #Activites img{
         width: 100% ;
-        height:12em;
+        height:135px;
         margin: 0; 
     }
 
     /*******  smart footer ************/
+
     footer{
-        width:100%;
-        flex-direction: column; 
+        width:auto;
+        flex-direction: column;
+        margin:0 auto;  
     }
     footer ul{
         padding:20px;
@@ -327,7 +344,7 @@
 } /******* fin partie smartPhone *****************/
 
 
-/************ limitation impact modif smart header sur autres config  *************/
+/************ limitation impact modif smart sur autres config  *************/
 @media screen and (min-width : 750px) {
     .mobileInscription{
         display:none;
@@ -335,11 +352,14 @@
 }
 
 
+
+
 /***************************************************/
 /****************** tablette **********************/
 /**************************************************/
 @media screen and (min-width : 750px) and (max-width : 1303px){
-                /**** mon breakPoint tablette min-width: 750px (vs 768) ////max-width: 1303px (vs 1024)*****/         
+                /**** mon breakPoint tablette min-width: 831px (vs 768) ////max-width: 1303px (vs 1024)*****/         
+
 
     .vewport{
         width: 750px;
@@ -347,11 +367,15 @@
     body{
         background-color:#f2f2f2
     }
+   
+
     /************   nav ***********/
     .logo{
         margin:auto;
     }
+
     header nav {
+       
        font-size: large;
        font-weight: bold;
        margin-right: 50px;
@@ -361,10 +385,12 @@
     .zoneRecherche {
         width: 100% !important;
     }
+
     .zoneRecherche input{
         font-size: larger;
         padding-right: 6em; 
     }
+   
 
     #Recherche h2 {
         font-size: x-large;
@@ -375,6 +401,7 @@
     #Recherche p {
         font-size: large;
     }
+
     #Recherche .zoneRecherche{
         width: 75%;
         justify-content: center;
@@ -385,15 +412,21 @@
         width:100%;
         justify-content: center;      
     }
+
+    
     #Filtres ul a{
         font-size:large;        
     }
+
     #Filtres h3{   
         display: none;    
     }
+        
     .infoFiltres{
        display: none !important;
     }
+
+
     /*********  Logements   **********/
     #Logements{
         flex-wrap: wrap;
@@ -404,6 +437,7 @@
     #Logements aside{
         width: 100%;
         border-radius: 0;
+    
     }  
     #Logements aside h2,#Logements aside h3,#Logements aside p{
         margin-left: 50px;
@@ -415,6 +449,7 @@
         height:2em; 
         margin: 0 2em; 
     }
+
     #Logements aside .listeArticlesPop article{
         width:90%;
         height: 15em;
@@ -449,7 +484,9 @@
         max-height: 30px;
         height:1.5em;       
        margin-bottom: 10px;       
-    }  
+    }
+    
+
     #Logements main ul > li{ 
         width:45%; 
         padding:0;
@@ -477,6 +514,7 @@
         border-radius: 10px 10px;   
         margin: 10px auto;
     }
+   
     .boitePetitesImgAct{
         width: 45% ;
         border-radius: 10px 10px;
