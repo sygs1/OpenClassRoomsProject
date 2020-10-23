@@ -171,6 +171,7 @@
         padding: 15px 15px;
     }
 
+
     .icoInfo{
         width: 20px !important;
         height:15px !important;
@@ -274,20 +275,20 @@
        padding:0;
     }
     #Logements main li {
-       width:100%;
-        justify-content: center;
-        box-shadow: 0px 0px 2px 2px #f2f2f2;
+       width:100%;      
+       box-shadow: 0px 0px 2px 2px #f2f2f2;
     }
 
     #Logements main article{
         width:100%; 
+		
     }
     #Logements main article p, #Logements main article h3 {
         font-size: large; 
         line-height: 0.5em;       
     }
     #Logements main li .imgHebergement{
-        width:100%;    
+        width: calc(100%-10px);    
        height: 8em;
     }
     
@@ -365,17 +366,22 @@
         width: 750px;
     }    
     body{
-        background-color:#f2f2f2
+        background-color:#f2f2f2;
+        width: auto;
     }
    
 
     /************   nav ***********/
+    header{
+        width:95%;
+        margin: 0 auto;
+    }
+    
     .logo{
         margin:auto;
     }
 
-    header nav {
-       
+    header nav {       
        font-size: large;
        font-weight: bold;
        margin-right: 50px;
@@ -400,6 +406,7 @@
     }
     #Recherche p {
         font-size: large;
+        text-align: center;
     }
 
     #Recherche .zoneRecherche{
@@ -412,12 +419,17 @@
         width:100%;
         justify-content: center;      
     }
-
     
     #Filtres ul a{
         font-size:large;        
     }
-
+	 #Filtres ul li a :hover{
+		 border-right: 1px solid black;
+		 border-left: 1px solid black;
+		 border-radius: 5px 5px;
+		 padding: 0 2px;
+		 
+	}
     #Filtres h3{   
         display: none;    
     }
@@ -430,6 +442,7 @@
     /*********  Logements   **********/
     #Logements{
         flex-wrap: wrap;
+        
     }
         
 
@@ -437,23 +450,31 @@
     #Logements aside{
         width: 100%;
         border-radius: 0;
-    
     }  
-    #Logements aside h2,#Logements aside h3,#Logements aside p{
+	#Logements aside h2{
+		margin-left: 50px;
+		font-size: x-large;
+    }
+		
+    #Logements aside h3,#Logements aside p{
         margin-left: 50px;
-        font-size:x-large;
-    }   
+        font-size:large;
+    } 
+ #Logements aside .listeArticlesPop{
+	width:calc(100% - 10px);
+
+ }	 
     #Logements aside .listeArticlesPop article .description img{
         width:6em;
-        max-height: 30px;
+        max-height: 20px;
         height:2em; 
-        margin: 0 2em; 
+        margin: 5em 2em; 
     }
 
     #Logements aside .listeArticlesPop article{
-        width:90%;
+        width: 100%;
         height: 15em;
-        margin-left: 0px;     
+        margin: 0 auto;     
     }
     #Logements aside .listeArticlesPop article .imgPop{
         width: 60%;
@@ -470,6 +491,7 @@
         width:100% ;      
         border-radius: 0; 
         justify-content: space-between;
+        margin: 0 auto;
     }
     #Logements main h2{
         margin-left:50px;
