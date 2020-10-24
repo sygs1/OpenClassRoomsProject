@@ -46,7 +46,8 @@
             color: #0065fc;
             text-decoration: none;
             width:40%;
-            text-align: center;                   
+            text-align: center;
+			
     } 
     .headerFirst a:active{
         border-bottom: 3px solid #0065fc; 
@@ -131,12 +132,12 @@
     }  
     #Recherche h2 {
         font-size:x-large;
-        margin: 20px 30px 0 30px;
+        margin: 20px 20px 0 30px;		
     }
 
     #Recherche p {
         font-size: large;
-        margin: 20px 30px 50px 30px;
+        margin: 20px 50px 50px 30px;
     }
      
    
@@ -175,13 +176,16 @@
         padding: 15px 15px;
     }
 
-
     .icoInfo{
         width: 20px !important;
         height:15px !important;
         align-self: flex-start;
-        margin-left:20px !important;        
+        margin-left:30px !important; 			
     }
+	#Recherche .infoFiltres p{
+		margin-top:0px;
+	}
+	
 
 
     /************  smart Logements *****************************/
