@@ -53,8 +53,8 @@
         border-bottom: 3px solid #0065fc; 
         padding: 7px 0 5px 0;   
     }
-    .headerFirst :visited{ 
-        color:black;
+    .headerFirst { 
+        color:#0065fc;
     } 
    
     /***************fin Div headerFirst *********/ 
@@ -92,12 +92,16 @@
         text-align:center;
     }
 
-    .ancreH :active,.ancreA :active{     
+    .ancreH {     
 		border-bottom: 3px solid #0065fc;
 		padding: 7px 0 5px 0;		
     }
     
-  	 
+  	.ancreA { 
+		color: black;    
+		border-bottom: 3px solid #f2f2f2;
+		padding: 7px 0 5px 0;		
+    }
    
 
     /*********** smart recherche   *******************************/
@@ -618,34 +622,28 @@ body{
         nav ul{ 
             display: flex;                  
             list-style-type: none;  
-            
         }
-    
-
         nav ul li{
             margin: 0 15px;
-            
         }
         
         nav a{                      
-            color: #0065fc;
+			color:#0065fc;
             text-decoration: none;             
             padding : 10px 0 0 ; 
             display: flex;
-            
-            
         }
 
         nav a:hover{
             border-top: 1px solid #0065fc;
             padding : 9px 0 0; 
             color:#0065fc;
-
         }
-        nav a:visited {
-            color:black;
-        }
-       
+		
+        nav .ancreA :visited{
+		   color: black;
+	   }
+	
    
     /**************************************************/
 
