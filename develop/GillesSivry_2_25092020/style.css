@@ -11,7 +11,7 @@
 /***************************   smartPhone  ********************************/
 /*************************************************************************/
 @media screen and (max-width : 749px){
-                        /***** mon breakPoint smartPhone= 830px (vs 767)*****/
+                        /***** mon breakPoint smartPhone= 749px (vs 767)*****/
 
     .vewport{
         width:414px;
@@ -372,7 +372,7 @@
 /****************** tablette **********************/
 /**************************************************/
 @media screen and (min-width : 750px) and (max-width : 1303px){
-                /**** mon breakPoint tablette min-width: 831px (vs 768) ////max-width: 1303px (vs 1024)*****/         
+                /**** mon breakPoint tablette min-width: 750px (vs 768) ////max-width: 1303px (vs 1024)*****/         
 
 
     .vewport{
