@@ -443,12 +443,18 @@
 		 padding: 0 2px;
 		 
 	}
-    #Filtres h3{   
-        display: none;    
+	#Filtres{
+		display: flex;
+		Flex-direction:column;
+		margin : 30px auto;
+	}
+    #Filtres h3{				
+		font-size:x-large;	
+		
     }
         
     .infoFiltres{
-       display: none !important;
+        margin:50px;   
     }
 
 
