@@ -501,7 +501,7 @@
     #Logements aside .listeArticlesPop article{
         width: 100%;
         height: 15em;
-        margin: 0 auto;     
+        margin: 10px auto;     
     }
     #Logements aside .listeArticlesPop article .imgPop{
         width: 60%;
@@ -542,9 +542,18 @@
         align-content: stretch;
     }
     #Logements main li .imgHebergement{
-    width:95%;      
-    height: 10em;
+		width:95%;      
+		height: 10em;
+		margin: 0 auto;
     }
+	#hebergements ul li{		 
+		display: block ;
+		width:100%;		
+	}
+	#Logements main li article{
+			width:100%;
+			margin:10px auto;
+		}
 
     /****** tabletteActivités ******************/
     #Activites{
