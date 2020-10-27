@@ -125,12 +125,12 @@
         margin-left: -15px;
     }   
     .zoneRecherche {
-        width: 100% ;
+        width: 100%;
         margin:0 auto;
     }
     .zoneRecherche input{
-        font-size: x-large;
-        padding-right: 4em;
+        font-size: larger;
+        padding-right: 2em;
         border-radius: 8px 0 0 8px;
 
     }  
@@ -287,12 +287,14 @@
        padding:0;
     }
     #Logements main li {
-       width:100%;      
+       width:100%;  
+	   display: block;
+	   margin: 20px 15px;	   
        box-shadow: 0px 0px 2px 2px #f2f2f2;
     }
 
-    #Logements main article{
-        width:100%; 
+    #Logements main ul li article{
+		width:100%;		
 		
     }
     #Logements main article p, #Logements main article h3 {
@@ -560,6 +562,7 @@
         justify-content: space-around;
         border-radius: 10px 10px;   
         margin: 10px auto;
+		
     }
    
     .boitePetitesImgAct{
@@ -587,16 +590,7 @@
 }
    /******* fin partie tablette *****************/
 
-
-
-
-
-
-
-
-
-
-
+/*******************************************/
 /******************************************/
 /*taille maquette fournie 1440px  Desktop  ************************************/
 /*******************************************/
@@ -931,12 +925,17 @@ body{
         justify-content: space-between; 
         flex-wrap: wrap;  
     }
+	.boiteImgActivites article{
+		box-shadow: 0px 0px 2px 2px #f2f2f2;
+		border-radius: 15px 15px 15px 15px; 		
+	}
 
     .imgAct1{
         width: 300px;
         height:390px;
         object-fit:cover;      
-        border-radius: 15px 15px 0 0;        
+        border-radius: 15px 15px 0 0; 
+			
     }
     .imgAct2{
         width: 300px;
@@ -979,7 +978,7 @@ body{
          /********************* Pied de page *****************************/
 
     footer {
-        
+        margin-top: 50px;
         background-color:#f2f2f2;
         display:flex;
         flex-wrap: wrap;
