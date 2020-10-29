@@ -18,18 +18,20 @@
     }    
     body{       
        background-color: white;
-        width: auto;
+       width:100%;
+	 
     }    
     
     /*********** smart header *******************/
     header{        
-        width:100%; 
-        margin-bottom: 40px; 
+        width:97%; 
+        margin-bottom: 40px;
+	
     }
 
     /*************** Div headerFirst *********/ 
     .headerFirst{
-        width:100%;
+        width:97%;
         margin :30px 0 20px 20px;
         display: flex;
         align-items: center;
@@ -61,7 +63,7 @@
        
     /******** smart Nav limitée ************************/
     nav{
-        width:100%;
+        width:97%;
         display: block;
         font-size: large; 
         font-weight: bold;
@@ -105,11 +107,10 @@
    
 
     /*********** smart recherche   *******************************/
-    #recherche{
-        flex-direction: column;
-        align-items: flex-start;
-        font-size: x-large;       
-        width:90%;           
+    #Recherche{
+		width:98% ;		
+		margin:0 auto;
+		
     }
 
         /******  changement text en image *****/
@@ -125,8 +126,8 @@
         margin-left: -15px;
     }   
     .zoneRecherche {
-        width: 100%;
-        margin:0 auto;
+        width: 97% !important;
+        
     }
     .zoneRecherche input{
         font-size: larger;
@@ -141,16 +142,17 @@
 
     #Recherche p {
         font-size: large;
-        margin: 20px 50px 50px 30px;
+        margin: 20px 20px 50px 30px;
     }
      
    
     /************* smart Filtres ****************/
     #Filtres{
-      width: 100%;
-      flex-wrap: wrap;
-      font-size: large;  
+      width:100%;
+	  flex-wrap: wrap;
+      font-size: large;
     }
+	
     #Filtres h3{   
        margin: 30px 0 0 25px;
        font-size: x-large;  
@@ -161,11 +163,11 @@
         padding: 0px;     
     }
     #Filtres li{
-        margin:0 10px;
+        margin:0 5px;
     }
     #Filtres ul a{
         font-size:large;
-        margin: 0 15px 0 10px;
+        margin: 0 10px 0 10px;
         font-weight: bolder;    
     } 
     #Filtres img{
@@ -194,7 +196,7 @@
 
     /************  smart Logements *****************************/
     #Logements{
-        width:100%;
+        width:97%;
         margin: 0 auto !important;       
         }    
 
@@ -346,7 +348,7 @@
     /*******  smart footer ************/
 
     footer{
-        width:auto;
+        width:97%;
         flex-direction: column;
         margin:0 auto;  
     }
