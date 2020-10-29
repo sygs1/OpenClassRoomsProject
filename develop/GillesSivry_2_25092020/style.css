@@ -14,18 +14,19 @@
                         /***** mon breakPoint smartPhone= 749px (vs 767)*****/
 
     .vewport{
-        width:414px;
+        width:413px;
     }    
     body{       
        background-color: white;
-       width:100%;
+       width:99% !important;
 	 
+	  margin:0 !important;
     }    
     
     /*********** smart header *******************/
     header{        
         width:97%; 
-        margin-bottom: 40px;
+        margin: 40px 0 40px 0;
 	
     }
 
@@ -67,6 +68,7 @@
         display: block;
         font-size: large; 
         font-weight: bold;
+	
                 
     }
     nav ul{
@@ -109,8 +111,8 @@
     /*********** smart recherche   *******************************/
     #Recherche{
 		width:98% ;		
-		margin:0 auto;
-		
+		margin:0 !important;
+			
     }
 
         /******  changement text en image *****/
@@ -151,6 +153,7 @@
       width:100%;
 	  flex-wrap: wrap;
       font-size: large;
+	    
     }
 	
     #Filtres h3{   
@@ -190,6 +193,7 @@
     }
 	#Recherche .infoFiltres p{
 		margin-top:0px;
+	
 	}
 	
 
@@ -197,14 +201,15 @@
     /************  smart Logements *****************************/
     #Logements{
         width:97%;
-        margin: 0 auto !important;       
+        margin: 0 !important;       
         }    
 
     /******* smart Pop ***************************/
     #Logements aside{
         width:100%;
         border-radius: 0;
-        margin:0 auto;             
+        margin:0 auto; 
+	
     }  
    
     #Logements aside h2{
@@ -262,7 +267,8 @@
         flex-wrap: nowrap;
         padding-left:0;
         background-color: white;
-        margin:0 auto;             
+        margin:0 auto; 
+		
     }
     #Logements main h2{
         margin-left: 15px;
@@ -313,7 +319,9 @@
    
     /****** smart Activités ******************/
     #Activites{
-       width:100%;
+       width:97% !important;
+	   margin:0 !important;
+	 
     } 
     #Activites h2{
         font-size:x-large;
@@ -350,7 +358,7 @@
     footer{
         width:97%;
         flex-direction: column;
-        margin:0 auto;  
+        margin:0;  
     }
     footer ul{
         padding:20px;
@@ -359,6 +367,11 @@
         font-size:x-large;        
         margin-left: 20px !important; 
     }
+	#A_Propos, #Nos_hebergements, #Assistance{
+		margin-right: 100px !important;
+	}
+	
+	
 } /******* fin partie smartPhone *****************/
 
 
